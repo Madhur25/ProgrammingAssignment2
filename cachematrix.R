@@ -39,9 +39,9 @@ cacheSolve <- function(x, ...) {
   det(x)
   # Using solve function calculate the inverse of x
   inv <- solve(x)
-  ## Return a matrix that is the inverse of 'x'
   inv
   #Setting the inverse matrix value in cache
   x$setInverse(inv)
+  ## Return a matrix that is the inverse of 'x'
   inv
 }
